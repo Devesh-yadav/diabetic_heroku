@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        
+        .cccc{
+            margin-left: 20%;
+            margin-top: 5%;
+        }
+    </style>
+    <title>HomePage</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome to Homepage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <p class="h1" style="margin-left: 40%;margin-top: 5%;margin-bottom: 0%;">Diabetes Predictor</p>
+    <form class="cccc" method="post" action="/predict">
+        <div class="mb-3" style="float:left;">
+            <label for="exampleInputEmail1" class="form-label">Pregnancies</label>
+            <input type="number"  step="0.01"name="Pregnancies" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">Glucose</label>
+            <input type="number"  step="0.01"name="Glucose" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">BloodPressure</label>
+            <input type="number"  step="0.01"name="BloodPressure" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">SkinThickness</label>
+            <input type="number"  step="0.01"name="SkinThickness" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div style="clear:both;">&nbsp;</div>
+        <div class="mb-3" style="float:left;">
+            <label for="exampleInputEmail1" class="form-label">Insulin</label>
+            <input type="number"  step="0.01"name="Insulin" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">BMI</label>
+            <input type="number"  step="0.01"name="BMI" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">DiabetesPedigreeFunction</label>
+            <input type="number"  step="0.01"name="DiabetesPedigreeFunction" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        <div class="mb-3" style="float:left; margin-left: 1%;">
+            <label for="exampleInputEmail1" class="form-label">Age</label>
+            <input type="number"  step="0.01"name="Age" class="form-control" id="exampleInputEmail1" style="width: 200px; height: 30px;">
+            
+        </div>
+        
+        <div style="clear:both;">&nbsp;</div>
+            <div class="mb-3 form-check">
+                <input type="checkbox"  required="required" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label"  for="exampleCheck1">Confirm details</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit Details</button>
+            
+        </form>
+</body>
+
+</html>
