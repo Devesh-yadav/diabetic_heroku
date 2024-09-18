@@ -1,5 +1,5 @@
 
-# Diabeties Predicto
+# Diabeties Predicton
 
 This project predicts whether the person has Diabeties or not.
 User needs to provide inputs such as insulin, age, BMI etc and submit. Based on these values this model predicts the output.
