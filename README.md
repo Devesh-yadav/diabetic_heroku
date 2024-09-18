@@ -8,7 +8,7 @@ User needs to provide inputs such as insulin, age, BMI etc and submit. Based on 
 ## Deployment
 
 ### Prerequisites
-- Python 3.x
+- Python 3.7
 - pip
 - Flask
 - Anaconda
