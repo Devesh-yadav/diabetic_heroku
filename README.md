@@ -15,27 +15,8 @@ This project predicts whether a person has diabetes based on inputs such as insu
 git clone https://github.com/Devesh-yadav/diabetic_heroku
 cd diabetic_heroku
 
-
-
-
-
-
-### Clone the Repository2
 conda create --name myenv python=3.8
 conda activate myenv
+
 ### Install Dependencies
-
 pip install -r requirements.txt
-
-### Run the Application
-python main.py
-
-### Lessons Learned
-- Learned different preprocessing techniques to clean the data.
-- Explored various machine learning algorithms to increase accuracy and optimize results.
-- Gained experience in deploying a Flask application on AWS for model inference.
-
-### Future Improvements
-- Explore additional algorithms to improve prediction accuracy.
-- Implement more advanced preprocessing techniques.
-- Add a user-friendly web interface for better user experience.
