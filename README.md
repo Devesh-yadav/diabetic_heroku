@@ -15,7 +15,7 @@ This project predicts whether a person has diabetes based on inputs such as insu
 git clone https://github.com/Devesh-yadav/diabetic_heroku
 cd diabetic_heroku
 ```
-
+# Setup Environment
 conda create --name myenv python=3.8
 conda activate myenv
 
