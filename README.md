@@ -22,7 +22,7 @@ cd diabetic_heroku
 
 ### Set Up a Virtual Environment
 ```
-conda create --name myenv python=3.8
+conda create --name myenv python=3.7
 conda activate myenv
 ```
 
